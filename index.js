@@ -21,11 +21,11 @@ const embed = new Discord.MessageEmbed()
 .setThumbnail(message.author.avatarURL())
 .setDescription(`> **${args}**`)
 .setFooter(`Want to suggest / Feedback something?
- Simply type in this channel`)
+ Simply type in this channel- Shadows Shop Team`)
 .setTimestamp()
 message.channel.send(embed).then(msg => {
-  msg.react('892035791449100348').then( r => {
-    msg.react('896694904019894282')
+  msg.react('981147584930385920').then( r => {
+    msg.react('981147584758427658')
   })
 })
 }
